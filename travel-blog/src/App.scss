@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import 'variables';
+
+// reset css
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+  font-size:  62.5%; // 1 rem = 10px; 
+}
+
+.app {
+  * {
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+  }
+  display: grid;
+  grid-template-rows: minmax(8vh, min-content) 45vh max-content minmax(5vh, min-content);
+  grid-template-columns: auto 88vw auto;
+}
+
+
+
